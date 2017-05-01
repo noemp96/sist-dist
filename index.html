@@ -18,25 +18,92 @@
 
 </head>
 <body>
+<!--<h2 class="h2">Buscar:</h2>-->
 
-	<h1>PRACTICA SD 2</h1>
+<div class="flexsearch">
+    <div class="flexsearch--wrapper">
+      <form class="flexsearch--form" action="#" method="post">
+        <div class="flexsearch--input-wrapper">
+          <input class="flexsearch--input" type="search" placeholder="Buscar">
+        </div>
+        <input class="flexsearch--submit" type="submit" value="&#10140;"/>
+      </form>
+    </div>
+</div>
 
-	<div id="titulo-form" class="form-control-wrapper menu-form">
-		<div class="form-group add-right-margin">
-			
-		</div>
-	</div>
 
-	<div class="barra_busqueda">
-		<nav>
-			<form id="search" method="post">
-				<div>
-					<input type="text" class="form-control" id="titulo-text" placeholder="">			
-					<button id="boton-enviar" onClick="getImagesAndHideForm()" class="btn btn-info">Buscar</button>
-				</div>
-			</form>
-		</nav>
-	</div>
+	<!--MENU-->
+  <div class='swanky_wrapper'>
+    <input id='Imagenes' name='radio' type='radio'>
+    <label for='Imagenes'>
+      <img src='http://um.poniatowa.pl/wp-content/uploads/2015/07/galeria.png'>
+      <span>Imágenes</span>
+      <div class='lil_arrow'></div>
+      <div class='bar'></div>
+      <div class='swanky_wrapper__content'>
+        <!--
+        Aqui tenemos que inyectar codigo mediante un for
+          <ul>
+          <li>Flores</li>
+          <li>Coches</li>
+          <li>Países</li>
+          <li>Monumentos</li>
+        </ul>-->
+      </div>
+    </label>
+    <input id='Albumes' name='radio' type='radio'>
+    <label for='Albumes'>
+      <img src='http://content.tap-commerce.com/file/1026/template_iconos_bn_Mesa%20de%20trabajo%202.jpg'>
+      <span>Álbumes</span>
+      <div class='lil_arrow'></div>
+      <div class='bar'></div>
+      <div class='swanky_wrapper__content'>
+       <!--
+       aqui tenemos que inyectar codigo mediante un for
+        <ul>
+          <li>Fotos Flores</li>
+          <li>Vacaciones 2015</li>
+          <li>Graduación</li>
+        </ul>-->
+      </div>
+    </label>
+    <input id='Grupos' name='radio' type='radio'>
+    <label for='Grupos'>
+      <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/users.png'>
+      <span>Grupos</span>
+      <div class='lil_arrow'></div>
+      <div class='bar'></div>
+      <div class='swanky_wrapper__content'>
+        <!--
+        aqui tenemos que inyectar codigo mediante un for
+        <ul>
+          <li>Fans Pablo Alboran</li>
+          <li>Real Madrid</li>
+          <li>Escocia</li>
+        </ul>-->
+      </div>
+    </label>
+    <input id='Galeria' radio='radio' type='radio'>
+    <label for='Galeria'>
+      <img src='http://mexicoconectado.gob.mx/images/prensa/iconos%20buscador%20interno/icono_imagenes.png'>
+      <span>Galeria</span>
+      <div class='lil_arrow'></div>
+      <div class='swanky_wrapper__content'>
+        <!--
+        aqui tenemos que inyectar codigo mediante un for
+        <ul>
+          <li>Galería Dani</li>
+          <li>Galeria Noe</li>
+          <li>Galeria Margarita</li>
+          <li>Galeria Ruben</li>
+        </ul>-->
+      </div>
+    </label>
+  </div>
+
+</div>
+
+	<!---->
 
 
 	<!-- CONTENEDOR DE FOTOS -->
@@ -60,9 +127,10 @@
 				</div>
 			</div>
 		</div>
+
 		<!-- FIN CONTENEDOR DE FOTOS -->
 
-
+		
 
 </body>
 </html>
