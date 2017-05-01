@@ -19,12 +19,25 @@
 </head>
 <body>
 
+	<h1>PRACTICA SD 2</h1>
+
 	<div id="titulo-form" class="form-control-wrapper menu-form">
 		<div class="form-group add-right-margin">
-			<input type="text" class="form-control" id="titulo-text" placeholder="">					
-			<button id="boton-enviar" onClick="getImagesAndHideForm()" class="btn btn-info">Buscar</button>
+			
 		</div>
 	</div>
+
+	<div class="barra_busqueda">
+		<nav>
+			<form id="search" method="post">
+				<div>
+					<input type="text" class="form-control" id="titulo-text" placeholder="">			
+					<button id="boton-enviar" onClick="getImagesAndHideForm()" class="btn btn-info">Buscar</button>
+				</div>
+			</form>
+		</nav>
+	</div>
+
 
 	<!-- CONTENEDOR DE FOTOS -->
 		<div id="content">
